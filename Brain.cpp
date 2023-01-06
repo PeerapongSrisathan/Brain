@@ -237,10 +237,10 @@ char* Brain::readCSV() {
         return csvBuffer;
     }
     else {
-        sprintf(csvBuffer,"%d,%d,%d",
-            signalQuality,
-            attention,
-            meditation
+       // sprintf(csvBuffer,"%d,%d,%d",
+         //   signalQuality,
+         //   attention,
+          //  meditation
         );
 
         return csvBuffer;
